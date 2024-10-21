@@ -17,3 +17,8 @@ it('should return 4 when multiplying 2 by 2', function () {
 });
 
 
+
+ //test 3
+ it('should return 9 when multiplying 3 by 3', function () {
+  expect(multiply(3, 3)).to.equal(9);
+});
