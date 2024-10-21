@@ -10,3 +10,10 @@ describe('Multiply Function Tests', function () {
 });
 
 
+
+//test 2(green)
+it('should return 4 when multiplying 2 by 2', function () {
+  expect(multiply(2, 2)).to.equal(4);
+});
+
+
